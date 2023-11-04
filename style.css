@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+h1{
+    font-size: 24px;
+    color: #000000;
+    background-color: #a3f88d;
+    border-radius: 50px;
+}
+.container {
+    text-align: center;
+}
+.column {
+    flex: 50%;
+    padding: 16px;
+    height: 250px;
+}
+.row {
+    display: flex;
+}
+.stack {
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #333; /* Border style for the stack */
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.stack-item {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin-left: 48%;
+    line-height: 50px;
+    border: 1px solid #000000;
+    border-radius: 5px; ;
+    margin-bottom: 10px;
+    background-color: #e5f877; /* Background color for stack items */
+}
+
+.stack-item:hover {
+    background-color: #59fc30; /* Background color on hover */
+    cursor: pointer;
+}
+
+.btn.btn-danger {
+    margin-top: 1%;
+    margin-left: 2%;
+}
+.btn.btn-success {
+    margin-top: 1%;
+    margin-left: 10px;
+}
+
